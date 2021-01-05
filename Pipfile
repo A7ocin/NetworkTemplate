@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "==1.7.1+cu101"
+torchvision = "==0.8.2+cu101"
+numpy = "==1.19.3"
+scipy = "*"
+tqdm = "*"
+pytorch-lightning = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
